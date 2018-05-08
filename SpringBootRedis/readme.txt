@@ -1,0 +1,1 @@
+springboot整合redis集群，实现缓存数据到redis

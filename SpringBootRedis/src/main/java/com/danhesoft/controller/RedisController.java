@@ -21,16 +21,22 @@ public class RedisController {
     @RequestMapping("/setName")
     public String setUserName(String userName){
         clRedisTemplate.setWithExpireTime("user", "username", userName, 120);
-        return "success";
+        return "set success";
     }
 
     @RequestMapping("/getName")
-    public String getuserName(){
+    public String getUserName(){
         String userName = clRedisTemplate.get("user", "username");
         if(!StringUtils.isEmpty(userName)){
             return userName;
         }else
-            return "username is expired";
+            return "username is null or is expired";
+    }
+
+    @RequestMapping("/deleteName")
+    public String deleteUserName(){
+        clRedisTemplate.deleteWithPrefix("user", "username");
+        return "delete success";
     }
 
 }

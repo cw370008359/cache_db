@@ -1,0 +1,16 @@
+server:
+  port: 8080
+debug: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.117.131:3306/user_manager?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: cwlove2018
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  config: classpath:logback.xml
+

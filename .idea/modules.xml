@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ElasticSearchDemo/ElasticSearchDemo.iml" filepath="$PROJECT_DIR$/ElasticSearchDemo/ElasticSearchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootRedis/SpringBootRedis.iml" filepath="$PROJECT_DIR$/SpringBootRedis/SpringBootRedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDataJpaDemo/SpringDataJpaDemo.iml" filepath="$PROJECT_DIR$/SpringDataJpaDemo/SpringDataJpaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache_db.iml" filepath="$PROJECT_DIR$/cache_db.iml" />
+    </modules>
+  </component>
+</project>
